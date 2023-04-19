@@ -1,0 +1,16 @@
+.body {
+    padding-top: 56px;
+    display: flex;
+    background-color: var(--color-black);
+}
+
+.sidebar {
+    position: fixed;
+    transition: all linear 0.2s;
+    transform: translateX(-300px);
+    z-index: 20;
+
+    &.logic3 {
+        transform: translateX(0);
+    }
+}

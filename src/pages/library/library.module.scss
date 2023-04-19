@@ -1,0 +1,26 @@
+.wrapper {
+    color: #f1f1f1;
+    width: 100%;
+    min-height: 200px;
+    background-color: black;
+    display: flex;
+}
+
+.inner {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+    background-color: red;
+}
+
+.body {
+    flex: 1 0 0px;
+    background-color: black;
+}
+
+.footer {
+    flex: 1 0 500px;
+    background-color: yellow;
+}

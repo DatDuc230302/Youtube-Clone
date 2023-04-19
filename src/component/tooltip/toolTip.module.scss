@@ -1,0 +1,23 @@
+.inner {
+    position: relative;
+    &:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.tooltip {
+    visibility: hidden;
+    position: absolute;
+    color: white;
+    transition: all linear 0.1s;
+    background-color: #3c3c3c;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    bottom: -50px;
+    left: 55%;
+    transform: translateX(-50%);
+    opacity: 0;
+    white-space: nowrap;
+}

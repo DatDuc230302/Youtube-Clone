@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100%;
+    background-color: var(--color-black);
+}
+
+.inner {
+    width: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.iframe {
+    padding-right: 9px;
+}
+
+.main {
+    width: 100%;
+    padding: 17px 63px 0 63px;
+    display: flex;
+
+    &.bp1 {
+        padding: 17px 12px 0 12px;
+    }
+
+    &.bp2 {
+        flex-direction: column;
+    }
+
+    &.bp3 {
+        flex-direction: column;
+    }
+}

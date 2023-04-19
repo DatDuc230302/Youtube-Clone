@@ -1,0 +1,23 @@
+.wrapper {
+    position: fixed;
+    right: 20px;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 8px;
+    bottom: 20px;
+    padding: 16px;
+    user-select: none;
+    transform: translateY(80px);
+    transition: all linear 0.2s;
+    opacity: 0;
+
+    &.fade {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.inner {
+    font-size: 1.8rem;
+    color: black;
+}
